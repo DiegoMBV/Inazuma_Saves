@@ -1,0 +1,70 @@
+body{
+    margin:0;
+    padding:0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+    margin: 0;
+}
+header{
+    background-color:rgb(237, 149, 25);
+     display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+body{
+    background-color: rgb(245, 222, 193);
+}
+.remove-bg {
+    filter: brightness(1);
+    mix-blend-mode: multiply;
+    height: 70px;
+    padding: 10px;
+    margin: 0px;
+    padding-left: 20px;
+}
+
+.nav-centrado {
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.nav-centrado ul {
+    list-style-type: none !important;
+    padding-left: 0 !important;
+    display: flex !important;
+    gap: 1.5rem !important;
+    flex-direction: row !important; 
+    margin-right: 12%;
+}.nav-centrado li {
+    font-family: fantasy;
+    color:rgb(54, 35, 4)
+}
+
+.nav-centrado a {
+    text-decoration: none;   
+    color: inherit;          
+    padding: 0.5rem;         
+    display: inline-block;   
+}
+
+
+.fanstasma {
+    flex: 0 1 auto;
+    width: 70px; 
+    visibility: hidden;
+}
+
+main {
+    flex: 1; 
+}
+
+footer {
+    padding: 1rem;
+    background-color: rgb(237, 149, 25);
+    text-align: center;
+    padding: 10px ;
+    font-size: small;
+}
